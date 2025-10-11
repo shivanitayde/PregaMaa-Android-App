@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pregmaa/Screens/LoginPage/loginPage.dart';
 import 'package:pregmaa/Screens/OnBoardingPage/onboardingScreen.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const Onboardingscreen(),
+      routes: {'/loginPage': (context) => loginpage()},
+      home: Onboardingscreen(),
     );
   }
 }

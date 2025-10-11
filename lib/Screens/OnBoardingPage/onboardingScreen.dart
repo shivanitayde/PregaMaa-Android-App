@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pregmaa/Screens/LoginPage/loginPage.dart';
 
 class Onboardingscreen extends StatelessWidget {
   const Onboardingscreen({super.key});
@@ -40,17 +41,25 @@ class Onboardingscreen extends StatelessWidget {
               style: TextStyle(fontSize: 20, color: Colors.black),
             ),
             SizedBox(height: size.height * 0.03),
-            Container(
-              height: size.height * 0.05,
-              width: size.width * 0.55,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(25),
-                color: Colors.pinkAccent,
-              ),
-              child: Center(
-                child: Text(
-                  'Get Started',
-                  style: TextStyle(color: Colors.white, fontSize: 25),
+            GestureDetector(
+              onTap: () {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(builder: (context) => loginpage()),
+                );
+              },
+              child: Container(
+                height: size.height * 0.05,
+                width: size.width * 0.55,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(25),
+                  color: Colors.pinkAccent,
+                ),
+                child: Center(
+                  child: Text(
+                    'Get Started',
+                    style: TextStyle(color: Colors.white, fontSize: 25),
+                  ),
                 ),
               ),
             ),
