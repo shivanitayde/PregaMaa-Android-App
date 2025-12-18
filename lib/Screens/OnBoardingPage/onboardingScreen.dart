@@ -45,7 +45,7 @@ class Onboardingscreen extends StatelessWidget {
               onTap: () {
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => loginpage()),
+                  MaterialPageRoute(builder: (context) => Loginpage()),
                 );
               },
               child: Container(

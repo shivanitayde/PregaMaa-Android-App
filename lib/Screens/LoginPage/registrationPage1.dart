@@ -201,7 +201,7 @@ class _registerpage1 extends State<registerpage1> {
                   onPressed: () {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => loginpage()),
+                      MaterialPageRoute(builder: (context) => Loginpage()),
                     );
                   },
                   child: Text(

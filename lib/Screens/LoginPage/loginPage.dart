@@ -1,16 +1,17 @@
 //import 'dart:ffi';
 
 import 'package:flutter/material.dart';
+import 'package:pregmaa/Screens/HomePage/homeScreen.dart';
 import 'package:pregmaa/Screens/LoginPage/registrationPage1.dart';
 
-class loginpage extends StatefulWidget {
+class Loginpage extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return _loginpage();
+    return _Loginpage();
   }
 }
 
-class _loginpage extends State<loginpage> {
+class _Loginpage extends State<Loginpage> {
   var emailtext = TextEditingController();
   var passtext = TextEditingController();
   bool _isPasswordVisible = false;
@@ -137,9 +138,17 @@ class _loginpage extends State<loginpage> {
                   String upass = passtext.text.toString();
                   print("Email: $uemail, Pass: $upass");
                 },
-                child: Text(
-                  "Login ",
-                  style: TextStyle(color: Colors.pink.shade200),
+                child: GestureDetector(
+                  onTap: () {
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(builder: (context) => registerpage1()),
+                    );
+                  },
+                  child: Text(
+                    "Login ",
+                    style: TextStyle(color: Colors.pink.shade200),
+                  ),
                 ),
               ),
             ),

@@ -1,5 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:pregmaa/Screens/HomePage/homeScreen.dart';
+import 'package:pregmaa/Screens/OnBoardingPage/onboardingScreen.dart';
 
 class registerpage2 extends StatefulWidget {
   @override
@@ -249,7 +251,7 @@ class _registerpage2 extends State<registerpage2> {
                     print("mob: $umob, Add: $uadd, name: $uname");
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => registerpage2()),
+                      MaterialPageRoute(builder: (context) => Homescreen()),
                     );
                   },
                   child: Text(

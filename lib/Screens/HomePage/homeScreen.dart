@@ -130,6 +130,7 @@ class ListOfFeatures extends StatelessWidget {
               fontWeight: FontWeight.bold,
             ),
           ),
+          SizedBox(width: size.width * 0.065),
           Container(
             height: size.height * 0.4,
             width: size.width * 0.3,
