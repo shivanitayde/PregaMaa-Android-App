@@ -20,7 +20,10 @@ version: 1.0.0+1
 
 environment:
   sdk: ^3.8.1
+<<<<<<< HEAD
   
+=======
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -34,6 +37,7 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+<<<<<<< HEAD
   
   
 
@@ -53,11 +57,18 @@ dependencies:
   firebase_core:  ^3.1.0
   
   
+=======
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.2.1
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+<<<<<<< HEAD
   
+=======
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -79,10 +90,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+<<<<<<< HEAD
     - assets/images/
     
   
   #   - images/a_dot_ham.jpeg
+=======
+    - assets/images/HomePageImages/
+    - assets/images/onBoardingImages/
+    # - images/a_dot_ham.jpeg
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

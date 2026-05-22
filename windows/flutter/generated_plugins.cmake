@@ -3,11 +3,14 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+<<<<<<< HEAD
   cloud_firestore
   file_selector_windows
   firebase_core
   flutter_tts
   url_launcher_windows
+=======
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

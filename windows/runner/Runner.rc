@@ -93,7 +93,11 @@ BEGIN
             VALUE "FileDescription", "pregmaa" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "pregmaa" "\0"
+<<<<<<< HEAD
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+=======
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
             VALUE "OriginalFilename", "pregmaa.exe" "\0"
             VALUE "ProductName", "pregmaa" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"

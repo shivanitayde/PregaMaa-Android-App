@@ -8,12 +8,19 @@ plugins {
 android {
     namespace = "com.example.pregmaa"
     compileSdk = flutter.compileSdkVersion
+<<<<<<< HEAD
     ndkVersion = "27.0.12077973"
+=======
+    ndkVersion = flutter.ndkVersion
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+<<<<<<< HEAD
         isCoreLibraryDesugaringEnabled = true
+=======
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
     }
 
     kotlinOptions {
@@ -43,7 +50,10 @@ android {
 flutter {
     source = "../.."
 }
+<<<<<<< HEAD
 
 dependencies {
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
 }
+=======
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a

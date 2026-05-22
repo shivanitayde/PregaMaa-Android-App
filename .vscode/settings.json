@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
     "cmake.sourceDirectory": "E:/pregMaa/pregmaa/linux",
     "java.configuration.updateBuildConfiguration": "automatic"
+=======
+    "cmake.sourceDirectory": "E:/MajorProject2025/PregMaa-Android-App/pregmaa/linux"
+>>>>>>> f3fd9aa05832e60897b85b5cf4e7954fbe9dc81a
 }
